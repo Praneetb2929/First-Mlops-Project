@@ -38,16 +38,16 @@ source .mlops/bin/activate
 pip install -r requirements.txt
 ```
 
-Train the Model
+4. Train the Model
 ```bash
 python train.py
 ```
-Run the API Locally
+5. Run the API Locally
 ```bash
 uvicorn main:app --reload
 ```
 
-Sample Input for /predict
+6. Sample Input for /predict
 ```bash
 {
   "Pregnancies": 2,
